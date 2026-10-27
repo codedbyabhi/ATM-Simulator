@@ -16,7 +16,7 @@ public class ATMService {
 	public void deposit(double amount) {
 		if(amount>0) {
 			account.deposit(amount);
-			System.out.println("Amount deposit successfully");
+			System.out.println("Amount deposit successfully")
 		}
 		else {
 			System.out.println("Invalid deposit amount!");
